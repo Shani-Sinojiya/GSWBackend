@@ -2,10 +2,7 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb://localhost:27017/gsw-test", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect("mongodb+srv://Shani:Shani9880@gsw.yufvk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
   .then(() => {
     console.log("Connected to Mongodb......");
   })
