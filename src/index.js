@@ -6,7 +6,7 @@ const cors = require("cors");
 // const Parser = require("body-parser");
 const apiRoutes = require("./routes/file-router");
 const authRoutes = require("./routes/auth-router");
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 80;
 require("./db/database");
 
 app.use(express.json());
